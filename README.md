@@ -31,6 +31,13 @@ Run the skill_parser.py module directly. It will generate three outputs in the /
 - skill_aggs.csv - This is aggregates of the scores data by skill.
 - skills.html - This is a html page that contains a Plotly chart of skill aggregations
 
+# Requirements
+"Output a time series CSV" -> /outputs/scores_cleansed.csv
+There was some vagueness about file name and format. I chose to save as a CSV as that would be most useful and
+named the file to more accurately relay the contents of the file.
+
+"Output a proficiency by skill CSV" -> /outputs/skill_aggs.csv & /outputs/skills.html
+
 # Visualization Discussion
 The goal of this analysis is primarily to see how scores differ across skills. This is shown using a bar chart,
 with the x axis as the skill and the y axis as the average score.
